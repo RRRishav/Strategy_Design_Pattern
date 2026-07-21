@@ -7,9 +7,9 @@ public class UserService  {
         this.notificationSevice = notificationSevice;
     }
 
-    public  void notifyUser(String message){
-         notificationSevice.send("Notification are nowfrom email");
+
+
+    public void notifyuser(String message) {
+        notificationSevice.send("Notification are now from email");
     }
-
-
 }
